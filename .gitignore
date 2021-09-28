@@ -1,0 +1,15 @@
+node_modules/
+yarn-error.log
+package-lock.json
+.DS_Store
+*.local
+.idea
+.vscode/*
+
+config/config.refrence.js
+test/
+.eslintrc.js
+detanx.js
+src/*/README.md
+CHANGELOG.md
+README.md
