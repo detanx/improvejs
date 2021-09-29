@@ -1,4 +1,3 @@
-
 import { assert } from 'chai'
 import { ALL_NUMBER_UP_LOW_ALPHABETS } from '../src/common/constant'
 import * as methods from '../src/strings/index'
@@ -8,7 +7,7 @@ const jungle = (val, len = 4, custom = []) => {
   custom.forEach(item => {
     const type = typeof item
     if (type === 'string') {
-        customChar.push(...Array.from(item))
+      customChar.push(...Array.from(item))
     }
   })
   customChar = Array.from(new Set(customChar))

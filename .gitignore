@@ -7,7 +7,6 @@ package-lock.json
 .vscode/*
 
 config/config.refrence.js
-.eslintrc.js
 detanx.js
 src/*/README.md
 CHANGELOG.md

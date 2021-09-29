@@ -4,7 +4,7 @@ const resolve = require('rollup-plugin-node-resolve')
 // 将CommonJS模块转换为 ES2015 供 Rollup 处理
 const commonjs = require( 'rollup-plugin-commonjs')
 // 让我们可以使用es6新特性来编写代码
-const babel = require("rollup-plugin-babel")
+const babel = require('rollup-plugin-babel')
 // js代码检测
 const { eslint }  = require('rollup-plugin-eslint')
 // 压缩js代码，包括es6代码压缩
